@@ -18,7 +18,11 @@ public class SqlConexion
     public SqlConexion()
     {
 
+<<<<<<< HEAD
         connect = WebConfigurationManager.ConnectionStrings["Servicios"].ConnectionString;//"Data Source=lab-sql4;Initial Catalog=Services;User ID=asantiago;Password=asantiago";
+=======
+        connect = "Data Source=lab-sql4;Initial Catalog=Services;User ID=asantiago;Password=asantiago";
+>>>>>>> f36bcf2c225bc90834ef178e5a9bdf53bad3bac5
         myConnection = new SqlConnection(connect);
         cmd = new SqlCommand();
 

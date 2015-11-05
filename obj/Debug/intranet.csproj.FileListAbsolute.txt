@@ -14,6 +14,7 @@ C:\Users\asantiago\documents\visual studio 2012\Projects\intranet\intranet\bin\S
 C:\Users\asantiago\documents\visual studio 2012\Projects\intranet\intranet\bin\System.Net.Http.WebRequest.xml
 C:\Users\asantiago\documents\visual studio 2012\Projects\intranet\intranet\bin\System.Web.Http.xml
 C:\Users\asantiago\documents\visual studio 2012\Projects\intranet\intranet\bin\System.Web.Http.WebHost.xml
+<<<<<<< HEAD
 C:\Users\asantiago.TRANSNETWORK\Documents\transnetworkintranet-master\bin\App_Code\SqlConexion.cs
 C:\Users\asantiago.TRANSNETWORK\Documents\transnetworkintranet-master\bin\intranet.dll
 C:\Users\asantiago.TRANSNETWORK\Documents\transnetworkintranet-master\bin\intranet.pdb
@@ -47,3 +48,5 @@ C:\Users\asantiago.TRANSNETWORK\Documents\Visual Studio 2012\Projects\transnetwo
 C:\Users\asantiago.TRANSNETWORK\Documents\Visual Studio 2012\Projects\transnetworkintranet-master\obj\Debug\intranet.dll
 C:\Users\asantiago.TRANSNETWORK\Documents\Visual Studio 2012\Projects\transnetworkintranet-master\obj\Debug\intranet.pdb
 C:\Users\asantiago.TRANSNETWORK\Documents\Visual Studio 2012\Projects\transnetworkintranet-master\bin\Microsoft.Web.Infrastructure.dll
+=======
+>>>>>>> f36bcf2c225bc90834ef178e5a9bdf53bad3bac5

@@ -68,8 +68,13 @@ namespace intranet
             if (busqueda.Text != "")
             {
                 GridviewData.UseAccessibleHeader = true;
+<<<<<<< HEAD
 
                 string Configuration = WebConfigurationManager.ConnectionStrings["Servicios"].ConnectionString;//"Data Source=lab-sql4;Initial Catalog=Services;User ID=asantiago;Password=asantiago";
+=======
+                
+                string Configuration = "Data Source=lab-sql4;Initial Catalog=Services;User ID=asantiago;Password=asantiago";
+>>>>>>> f36bcf2c225bc90834ef178e5a9bdf53bad3bac5
                 string query = "SELECT nombreServidor AS Servidor,nombreServicio AS Servicio,estatusServicio AS Estatus ,modoInicio AS Inicio ,LogonServicio AS Cuenta ,tipoServidor AS TipoServidor,servidorRespaldo AS ServidorRespaldo FROM DevServices WHERE nombreServicio= '" + busqueda.Text + "'";
                 SqlConnection con = new SqlConnection(Configuration);
                 SqlCommand cmd = new SqlCommand(query, con);
@@ -89,7 +94,11 @@ namespace intranet
 
                     GridviewData.UseAccessibleHeader = true;
 
+<<<<<<< HEAD
                     string Configuration = WebConfigurationManager.ConnectionStrings["Servicios"].ConnectionString;//"Data Source=lab-sql4;Initial Catalog=Services;User ID=asantiago;Password=asantiago";
+=======
+                    string Configuration = "Data Source=lab-sql4;Initial Catalog=Services;User ID=asantiago;Password=asantiago";
+>>>>>>> f36bcf2c225bc90834ef178e5a9bdf53bad3bac5
                     string query = "SELECT nombreServidor AS Servidor,nombreServicio AS Servicio,estatusServicio AS Estatus ,modoInicio AS Inicio ,LogonServicio AS Cuenta ,tipoServidor AS TipoServidor,servidorRespaldo AS ServidorRespaldo FROM DevServices ";
                     SqlConnection con = new SqlConnection(Configuration);
                     SqlCommand cmd = new SqlCommand(query, con);
@@ -106,7 +115,11 @@ namespace intranet
 
                     GridviewData.UseAccessibleHeader = true;
 
+<<<<<<< HEAD
                     string Configuration = WebConfigurationManager.ConnectionStrings["Servicios"].ConnectionString;// "Data Source=lab-sql4;Initial Catalog=Services;User ID=asantiago;Password=asantiago";
+=======
+                    string Configuration = "Data Source=lab-sql4;Initial Catalog=Services;User ID=asantiago;Password=asantiago";
+>>>>>>> f36bcf2c225bc90834ef178e5a9bdf53bad3bac5
                     string query = "SELECT nombreServidor AS Servidor,nombreServicio AS Servicio,estatusServicio AS Estatus ,modoInicio AS Inicio ,LogonServicio AS Cuenta ,tipoServidor AS TipoServidor,servidorRespaldo AS ServidorRespaldo FROM DevServices WHERE nombreServidor= '" + DropDownServer.SelectedValue + "'";
                     SqlConnection con = new SqlConnection(Configuration);
                     SqlCommand cmd = new SqlCommand(query, con);
